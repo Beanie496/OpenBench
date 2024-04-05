@@ -16,8 +16,8 @@
             "test_bounds":     "[0.00, 5.00]",
             "test_confidence": "[0.05, 0.05]",
             "both_options":    "Threads=1 Hash=32",
-            "win_adj":         "movecount=3 score=300",
-            "draw_adj":        "movenumber=40 movecount=3 score=10",
+            "win_adj":         "movecount=3 score=400",
+            "draw_adj":        "movenumber=40 movecount=6 score=10",
             "upload_pgns":     "VERBOSE"
         },
 
