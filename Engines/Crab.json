@@ -14,7 +14,7 @@
         "default": {
             "base_branch":     "master",
             "book_name":       "UHO_4060_v2.epd",
-            "test_bounds":     "[0.00, 5.00]",
+            "test_bounds":     "[0.00, 10.00]",
             "test_confidence": "[0.05, 0.05]",
             "win_adj":         "movecount=3 score=400",
             "draw_adj":        "movenumber=40 movecount=6 score=10",
