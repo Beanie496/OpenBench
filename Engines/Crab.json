@@ -1,13 +1,13 @@
 {
-    "private": true,
-    "nps":     10500000,
+    "private": false,
+    "nps":     9000000,
     "source":  "https://github.com/Beanie496/Crab",
 
     "build" : {
         "path":      "",
-        "compilers": ["cargo"],
+        "compilers": ["cargo>=1.77.0"],
         "cpuflags":  ["AVX2", "POPCNT"],
-        "systems":   ["Linux"]
+        "systems":   ["Linux", "Windows", "Darwin"]
     },
 
     "test_presets": {
