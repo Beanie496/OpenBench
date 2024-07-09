@@ -57,10 +57,31 @@
     },
 
     "datagen_presets" : {
-        "default" : {
-            "win_adj":       "None",
-            "draw_adj":      "None",
-            "workload_size": 128
+        "default": {
+            "both_branch":           "master",
+            "book_name":             "UHO_4060_v2.epd",
+            "win_adj":               "movecount=3 score=300",
+            "draw_adj":              "movenumber=30 movecount=4 score=20",
+            "upload_pgns":           "FALSE",
+            "datagen_max_games":     100000
+        },
+
+        "VSTC": {
+            "both_options":      "Threads=1 Hash=16",
+            "both_time_control": "4.0+0.04",
+            "workload_size":     64
+        },
+
+        "VVSTC": {
+            "both_options":      "Threads=1 Hash=8",
+            "both_time_control": "2.0+0.02",
+            "workload_size":     128
+        },
+
+        "VVVSTC": {
+            "both_options":      "Threads=1 Hash=8",
+            "both_time_control": "1.0+0.01",
+            "workload_size":     256
         }
     }
 }
