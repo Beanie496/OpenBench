@@ -33,14 +33,14 @@
             "workload_size":     8
         },
 
-        "STC regression": {
+        "STC non-regression": {
             "both_options":      "Threads=1 Hash=32",
             "both_time_control": "8.0+0.08",
             "workload_size":     32,
             "test_bounds":       "[-5.00, 0.00]"
         },
 
-        "LTC regression" : {
+        "LTC non-regression": {
             "both_options":      "Threads=1 Hash=128",
             "both_time_control": "40.0+0.4",
             "workload_size":     8,
