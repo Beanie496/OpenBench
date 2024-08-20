@@ -1,6 +1,6 @@
 {
     "private": false,
-    "nps":     13800000,
+    "nps":     12500000,
     "source":  "https://github.com/Beanie496/Crab",
 
     "build" : {
